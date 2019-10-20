@@ -1,0 +1,28 @@
+# this program takes a time format such as '5:37pm' or '10:22am' and converts it into minutes since 00:00
+def parse_time_2_min(s):
+    l = list(s)
+    return_time = 0;
+    hours = 0;
+    mins = 0;
+    # if ':' is in 1st index, hour is 1 digit
+    if (l[1] == ':'):
+        # determine AM or PM and parse hour to int
+        if ((l[4]) == 'a'): # am
+            hours = int(l[0])
+        elif ((l[4]) == 'p'): # pm
+            hours = int(l[0]) + 12
+        else:
+            print('hour format error')
+        mins = int(l[2]+l[3])
+        return_time = hours*60 + mins
+    # if ':' is in 2nd index, hour is 2 digits
+    elif(l[2] == ':'):
+        if((l[5]) == 'a'):
+            hours = int(l[0]+l[1])
+        elif((l[5]) == 'p'):
+            hours = int(l[0]+l[1]) + 12
+        else:
+            print('hour format error')
+        mins = int(l[3]+l[4])
+    return_time = hours*60 + mins
+    return return_time

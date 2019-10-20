@@ -1,0 +1,171 @@
+Start location: Illinois Institute of Technology
+End location: 3500 N Lakeshore Drive
+{'geocoded_waypoints': [{'geocoder_status': 'OK',
+                         'place_id': 'ChIJD6jp03IsDogRGm_7Gmbky5E',
+                         'types': ['establishment',
+                                   'point_of_interest',
+                                   'university']},
+                        {'geocoder_status': 'OK',
+                         'place_id': 'ChIJ-e0Bm7zTD4gRUXyrspduAhE',
+                         'types': ['street_address']}],
+ 'routes': [{'bounds': {'northeast': {'lat': 41.9470058, 'lng': -87.6236212},
+                        'southwest': {'lat': 41.839454, 'lng': -87.6425616}},
+             'copyrights': 'Map data ©2019',
+             'legs': [{'arrival_time': {'text': '7:04pm',
+                                        'time_zone': 'America/Chicago',
+                                        'value': 1571529856},
+                       'departure_time': {'text': '5:47pm',
+                                          'time_zone': 'America/Chicago',
+                                          'value': 1571525272},
+                       'distance': {'text': '8.0 mi', 'value': 12930},
+                       'duration': {'text': '1 hour 16 mins', 'value': 4584},
+                       'end_address': '3500 N Lake Shore Dr, Chicago, IL '
+                                      '60657, USA',
+                       'end_location': {'lat': 41.9470058, 'lng': -87.6425616},
+                       'start_address': '10 W 35th St, Chicago, IL 60616, USA',
+                       'start_location': {'lat': 41.839455, 'lng': -87.626541},
+                       'steps': [{'distance': {'text': '2.1 mi', 'value': 3319},
+                                  'duration': {'text': '13 mins', 'value': 773},
+                                  'end_location': {'lat': 41.86916,
+                                                   'lng': -87.627327},
+                                  'html_instructions': 'Bus towards Navy Pier',
+                                  'polyline': {'points': 'swj~FzpyuO@NU?yCBgA?c@@kD@k@@uB@}BBQ?O?O@qDBM?gCBiBBg@?cA@c@?yA@eABE?O?S?C?cA@k@DYBoAJA?C@YHaC@i@@aA@_B@gC@W@uCBkB@s@?g@@YAuA@kBBcA@kB@mBBU?yBBy@BGICCCCQAoDFsA@aA@wA@sA@iC@aA?[?C?c@@{F@aA@cA@S@yFF}@BI?O?yHBM?wDDG@s@@qA?Y@iA?Y?kB@}BB?M'},
+                                  'start_location': {'lat': 41.839455,
+                                                     'lng': -87.626541},
+                                  'transit_details': {'arrival_stop': {'location': {'lat': 41.86916,
+                                                                                    'lng': -87.627327},
+                                                                       'name': 'State '
+                                                                               '& '
+                                                                               '11th '
+                                                                               'Street'},
+                                                      'arrival_time': {'text': '6:00pm',
+                                                                       'time_zone': 'America/Chicago',
+                                                                       'value': 1571526045},
+                                                      'departure_stop': {'location': {'lat': 41.839455,
+                                                                                      'lng': -87.626541},
+                                                                         'name': 'State '
+                                                                                 '& '
+                                                                                 '30th '
+                                                                                 'Street'},
+                                                      'departure_time': {'text': '5:47pm',
+                                                                         'time_zone': 'America/Chicago',
+                                                                         'value': 1571525272},
+                                                      'headsign': 'Navy Pier',
+                                                      'line': {'agencies': [{'name': 'Chicago '
+                                                                                     'Transit '
+                                                                                     'Authority',
+                                                                             'phone': '1 '
+                                                                                      '888-YOURCTA',
+                                                                             'url': 'http://www.transitchicago.com/'}],
+                                                               'color': '#565a5c',
+                                                               'name': 'State',
+                                                               'short_name': '29',
+                                                               'text_color': '#ffffff',
+                                                               'url': 'http://www.transitchicago.com/bus/29/',
+                                                               'vehicle': {'icon': '//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png',
+                                                                           'name': 'Bus',
+                                                                           'type': 'BUS'}},
+                                                      'num_stops': 15},
+                                  'travel_mode': 'TRANSIT'},
+                                 {'distance': {'text': '5.9 mi', 'value': 9560},
+                                  'duration': {'text': '38 mins',
+                                               'value': 2291},
+                                  'end_location': {'lat': 41.946957,
+                                                   'lng': -87.64238},
+                                  'html_instructions': 'Bus towards Berwyn Red '
+                                                       'Line',
+                                  'polyline': {'points': 'gqp~FxuyuO?LO?_DBg@?W?E?[@I?eCBy@@w@?_B@}B@I?U@iB@k@@cA@e@@WJE?I@[AW@C?Y?a@@uA@[?c@?gA@I?c@Ac@AWAI?QAuD@iA@mCDsA@[?K?gAB[?C?M?O@G?K?a@@K?M@U?SLc@@{@@g@?c@@c@@g@@eB?}BFi@?Q?o@@O?G?E?kABK?_@@w@?U??E?C?A?A?AA?A??AI?U?I@Y?c@?C?C@A?A??@?@A@?B?F_@@WK@qA?W@oCAcA?[@o@AiA?o@?k@Ao@?o@?a@c@@}ABgA@G?S?g@?qB@M?E?U?G?M?SCSAQA[ECA_@E]G]E[E[GWEQEYEc@KOCGAE?EAC?C?Y?e@@[@s@?K?S?S?[@]?aABE?M?M?C??Ng@Ba@N_@He@Dg@@[H[@]FMA[@a@Ba@Ca@H[Y[W[W]C]?]CI?SAa@Ba@@a@BKd@Kd@Md@_@Da@Ba@@a@K_@Da@Ec@?c@?a@?_@E_@A_@G]?]I[?[A_@oBLBA?c@?M@c@?Q?K?sABc@@k@@E?c@?c@@Y@UIM?k@?YA]?e@Kc@IEAw@OGCo@KUGSEMC[CSCIAa@BYBm@HYFODIBYJ_@N]Ne@Pe@P_@F]HKBeARgAReAPs@NODIDABQP_@Hi@Jg@Hg@Jm@H}Et@iBVu@JM@[D]DYB[BS@UAu@DeA@g@@_@?c@@U@o@DU?]@Y?c@De@BG@WDKBODQDG@[HKDi@R[JGBGDA?C@C@C@KDA@A?MFaA`@a@NiDrAeC`AMFE@KDA@]Nc@N_@PSJm@Vk@V{B|@SFIBKDq@Xs@R_AVcCp@iCf@yCh@}Df@y@Nw@NcE~@aEz@oBb@aAReATeATsBd@m@NA?C@G@A?EBC?C@A?KBODgB\\gATa@Hc@HSDm@Lk@Je@H_@BM@k@FcADY@q@?qC?{GEgAAG?_A?I?U?M?S?uA?O@w@BmAPeC`@}CjAkBfAm@d@WRw@n@]Z}@dAkA|A[d@Yb@Y`@q@bAu@jA[d@]d@q@bAU\\q@dAU@GBSNaCvBCBq@n@k@h@HX@B@B?@FT@@BH@DJXNh@FRDVBN?B@PBZBd@{ABa@?a@?y@?m@HWFw@PMDA?s@TSHQJsCnAa@PQHoDzAqB|@m@TGBc@RkBz@y@^YLCBgBx@_@PEO'},
+                                  'start_location': {'lat': 41.86916,
+                                                     'lng': -87.627327},
+                                  'transit_details': {'arrival_stop': {'location': {'lat': 41.946957,
+                                                                                    'lng': -87.64238},
+                                                                       'name': 'Lake '
+                                                                               'Shore '
+                                                                               '& '
+                                                                               'Cornelia'},
+                                                      'arrival_time': {'text': '7:03pm',
+                                                                       'time_zone': 'America/Chicago',
+                                                                       'value': 1571529809},
+                                                      'departure_stop': {'location': {'lat': 41.86916,
+                                                                                      'lng': -87.627327},
+                                                                         'name': 'State '
+                                                                                 '& '
+                                                                                 '11th '
+                                                                                 'Street'},
+                                                      'departure_time': {'text': '6:25pm',
+                                                                         'time_zone': 'America/Chicago',
+                                                                         'value': 1571527518},
+                                                      'headsign': 'Berwyn Red '
+                                                                  'Line',
+                                                      'line': {'agencies': [{'name': 'Chicago '
+                                                                                     'Transit '
+                                                                                     'Authority',
+                                                                             'phone': '1 '
+                                                                                      '888-YOURCTA',
+                                                                             'url': 'http://www.transitchicago.com/'}],
+                                                               'color': '#b71234',
+                                                               'name': 'Inner '
+                                                                       'Drive/Michigan '
+                                                                       'Express',
+                                                               'short_name': '146',
+                                                               'text_color': '#ffffff',
+                                                               'url': 'http://www.transitchicago.com/bus/146/',
+                                                               'vehicle': {'icon': '//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png',
+                                                                           'name': 'Bus',
+                                                                           'type': 'BUS'}},
+                                                      'num_stops': 20},
+                                  'travel_mode': 'TRANSIT'},
+                                 {'distance': {'text': '167 ft', 'value': 51},
+                                  'duration': {'text': '1 min', 'value': 47},
+                                  'end_location': {'lat': 41.9470058,
+                                                   'lng': -87.6425616},
+                                  'html_instructions': 'Walk to 3500 N Lake '
+                                                       'Shore Dr, Chicago, IL '
+                                                       '60657, USA',
+                                  'polyline': {'points': 'kw__Gbt|uOXOBP_@RKD'},
+                                  'start_location': {'lat': 41.9469441,
+                                                     'lng': -87.64242019999999},
+                                  'steps': [{'distance': {'text': '66 ft',
+                                                          'value': 20},
+                                             'duration': {'text': '1 min',
+                                                          'value': 15},
+                                             'end_location': {'lat': 41.94678589999999,
+                                                              'lng': -87.6424337},
+                                             'html_instructions': 'Head '
+                                                                  '<b>southeast</b> '
+                                                                  'on <b>N '
+                                                                  'Lake Shore '
+                                                                  'Dr</b> '
+                                                                  'toward <b>W '
+                                                                  'Cornelia '
+                                                                  'Ave</b>',
+                                             'polyline': {'points': 'kw__Gbt|uOXOBP'},
+                                             'start_location': {'lat': 41.9469441,
+                                                                'lng': -87.64242019999999},
+                                             'travel_mode': 'WALKING'},
+                                            {'distance': {'text': '102 ft',
+                                                          'value': 31},
+                                             'duration': {'text': '1 min',
+                                                          'value': 32},
+                                             'end_location': {'lat': 41.9470058,
+                                                              'lng': -87.6425616},
+                                             'html_instructions': 'Cross the '
+                                                                  'road<div '
+                                                                  'style="font-size:0.9em">Destination '
+                                                                  'will be on '
+                                                                  'the '
+                                                                  'right</div>',
+                                             'polyline': {'points': 'mv__Gdt|uO_@RKD'},
+                                             'start_location': {'lat': 41.94678589999999,
+                                                                'lng': -87.6424337},
+                                             'travel_mode': 'WALKING'}],
+                                  'travel_mode': 'WALKING'}],
+                       'traffic_speed_entry': [],
+                       'via_waypoint': []}],
+             'overview_polyline': {'points': 'swj~FzpyuO@NU?aFBqJFaRPeIF{A@wCT]JkDBaIF}RLiJHy@BGIGGQAoDFuCBwJD_IBsKLqKFaGHoE@iFD?M?LoDB_A?qDDoIDuDDiBB]JaA@mDByC?wAEaNJuDDgABU?SL_BBwCDeB?}BF{@?mA@oDDU??E?EACmB?G@AD?J_@@WK@iB?sE?eEAmDqEF{D@q@?uAMaEo@uAWSA_FDsBBQ??Ng@Ba@N_@HmAF[H[@]FMA}@Da@Ca@Hw@q@[W]C{@C]AcADa@BKd@YjAaAHa@@a@K_@Da@EgA?a@?_@E_AI]?]Iw@A_@oBLBe@?q@@uCDyBBY@UIy@?w@AiAUuBa@sAUSCk@@gALi@LaBn@e@PeAXi@LsEx@cATKHQP_@HqAT}KbB}BXu@Fi@?{BFgA@y@BeADaCJ{@PaAV_Bl@oHvCiGdCiFxB{Aj@sBj@cCp@iCf@yCh@}Df@qB^wPrDmH`B]HsGpAsCh@m@DoBLkA@mLEyCAmC?gADsEr@}CjAkBfAeAx@uAjA}@dAkA|Au@hAkAdBaDzEgAbB]DkEzDk@h@HXBFHX`@rAP~@Dl@Bd@{ABcA?y@?m@HoAXODgA^eDzAuItDeEhB_EjB_@PEOBFXOBP_@RKD'},
+             'summary': '',
+             'warnings': ['Walking directions are in beta. Use caution – This '
+                          'route may be missing sidewalks or pedestrian '
+                          'paths.'],
+             'waypoint_order': []}],
+ 'status': 'OK'}
