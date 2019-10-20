@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
 from tkinter import*
 import tkinter as tk
 import tkinter.messagebox as m
@@ -126,9 +132,11 @@ def run():
     start_loc = input_start.get()
     end_loc = input_end.get()
     profile = user_type
-    print(profile)
+    #print(profile)
     # api key
-    api_key = 'AIzaSyA7e-VjNC3ymu_pLAv-FjshTXx2TB4Ymjw'
+    with open('C:\\Users\\Elliot\\Desktop\\IIT\\demonhacks 2019\\gmaps_api_key.txt') as f:
+        api_key = f.readline()
+        f.close
     # google api address
     endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
     origin = start_loc.replace(' ', '+')
@@ -187,3 +195,10 @@ next.grid(column=1, row=4)
 
 # start the program
 r.mainloop()
+
+
+# In[ ]:
+
+
+
+
