@@ -122,7 +122,7 @@ def commute(lst, profile):
             trip = 'first'
             #print('{:10}  {:5}  {:6}  {:5}  {:5.2f}'.format(trip, ride, lst[2][i], lst[0][i], fare))
             tap = lst[0][i]
-    return fare
+    return '{:.2f}'.format(fare)
 
 
 
